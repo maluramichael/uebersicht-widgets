@@ -34,8 +34,8 @@ update: (output, domEl) ->
   if charge <= 25
     fill = '250,'+ 8 * charge + ',0'
   else
-    fill = '91,158,91'
-  fill = 'rgba('+fill+',1)'
+    fill = '91,200,91'
+  fill = 'rgba('+fill+',0.9)'
 
   $('#charge').attr('width',charge)
   $('#charge').css('fill',fill)
