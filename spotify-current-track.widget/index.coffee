@@ -22,12 +22,12 @@ style: """
   left: 15px
   right: 15px
   text-align: center
-  color: #fff
+  color: rgba(255,255,255,0.75)
 
   .output
     font-family: Helvetica Neue
-    font-size: 3em
-    font-weight: 100
+    font-size: 1.5em
+    font-weight: 200
     text-shadow: 0 1px 5px #000000;
 """
 
