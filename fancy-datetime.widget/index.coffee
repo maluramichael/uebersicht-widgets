@@ -18,12 +18,8 @@ settings =
     lang: 'de'
     militaryTime: true
     colors:
-      default: 'rgba(0, 0, 0, .75)'
-      accent: 'rgba(255, 255, 255, .75)'
-      background: 'rgba(255, 255, 255, .1)'
-    shadows:
-      box: '0 0 1.25em rgba(0, 0, 0, .5)'
-      text: '0 0 0.625em rgba(0, 0, 0, .25)'
+      default: 'rgba(255, 255, 255, .75)'
+      accent: 'rgba(255, 255, 255, .35)'
 
 # Locale Strings
 locale =
@@ -97,11 +93,7 @@ style: """
     display: table
     height: 100%
     padding: 1rem 2rem
-    border-radius: 1rem
-    background: #{ @settings.colors.background }
-    box-shadow: #{ @settings.shadows.box }
     overflow: hidden
-    -webkit-backdrop-filter: blur(5px)
 
   .cell
     position: relative
@@ -132,7 +124,6 @@ style: """
     height: 100%
     margin: 0 1rem
     background: #{ @settings.colors.accent }
-    box-shadow: #{ @settings.shadows.text }
 """
 
 render: () -> """

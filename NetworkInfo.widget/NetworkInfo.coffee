@@ -59,21 +59,16 @@ settings:
       accent: 'rgba(255, 255, 255, .75)'
       background: 'rgba(255, 255, 255, .1)'
     shadows:
-      box: '0 0 1.25em rgba(0, 0, 0, .5)'
+      box: '0 0 1.25em rgba(0, 0, 0, .3)'
       text: '0 0 0.625em rgba(0, 0, 0, .25)'
 
 # CSS Style
 style: """
   margin:0
   padding: 1rem 2rem
-  border-radius: 1rem
   right:15px
   top: 15px
-  background: #{ @settings.colors.background }
-  box-shadow: #{ @settings.shadows.box }
-  text-shadow: #{ @settings.shadows.text }
   overflow: hidden
-  -webkit-backdrop-filter: blur(5px)
 
   .service
     text-align:center
@@ -88,12 +83,19 @@ style: """
     padding:0px
     margin:2px
 
+  .divider
+    display: block
+    width: 0.2rem
+    height: 100%
+    margin: 0 1rem
+    background: #{ @settings.colors.accent }
+
   .primaryInfo
-    font-size:10pt
-    font-weight:bold
+    font-size:1.5em
+    font-weight:200
     color: rgba(#fff,0.75)
 
   .secondaryInfo
-    font-size:8pt
+    font-size:1em
     color: rgba(#fff, 0.5)
 """
