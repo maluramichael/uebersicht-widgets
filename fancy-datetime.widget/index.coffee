@@ -86,7 +86,7 @@ refreshFrequency: 1000
 style: """
   top: 15px
   left: 50%
-  font-family: 'Ubuntu', sans-serif
+  font-family: Helvetica Neue
   font-size: 16px
   line-height: 1
   text-transform: uppercase
@@ -100,7 +100,6 @@ style: """
     border-radius: 1rem
     background: #{ @settings.colors.background }
     box-shadow: #{ @settings.shadows.box }
-    text-shadow: #{ @settings.shadows.text }
     overflow: hidden
     -webkit-backdrop-filter: blur(5px)
 
@@ -121,15 +120,15 @@ style: """
 
   .txt-small
     font-size: 2rem
-    font-weight: 500
+    font-weight: 200
 
   .txt-large
     font-size: 7rem
-    font-weight: 700
+    font-weight: 100
 
   .divider
     display: block
-    width: 1rem
+    width: 0.2rem
     height: 100%
     margin: 0 1rem
     background: #{ @settings.colors.accent }

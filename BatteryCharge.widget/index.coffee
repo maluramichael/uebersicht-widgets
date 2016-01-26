@@ -46,8 +46,8 @@ update: (output, domEl) ->
 style: """
     main = rgba(#fff,1)
     color: main
-    scale = .9
-    opacity = .7
+    scale = .8
+    opacity = .8
 
     top: 15px
     left: 15px
@@ -63,7 +63,7 @@ style: """
     #hull
       fill: none
       stroke: main
-      stroke-width: 2
+      stroke-width: 1
 
     #tip
       fill: main
@@ -72,7 +72,7 @@ style: """
       stroke-width: 2
 
     #text
-      font-weight: bold
+      font-weight: 100
       fill: main
 
     #bolt

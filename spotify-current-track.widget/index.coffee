@@ -24,7 +24,7 @@ style: """
 
   .output
     font-family: Helvetica Neue
-    font-size: 30px
+    font-size: 3em
     font-weight: 100
     text-shadow: 0 1px 5px #000000;
 """
