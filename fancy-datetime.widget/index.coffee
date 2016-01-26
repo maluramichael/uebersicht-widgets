@@ -81,7 +81,7 @@ command: ""
 settings: settings
 locale: locale
 
-refreshFrequency: 1000
+refreshFrequency: 30000
 
 style: """
   top: 15px
