@@ -5,3 +5,4 @@
 * https://github.com/felixhageloh/uebersicht-widgets/tree/master/Spotify-Current-Track
 * https://github.com/bcseda/BatteryCharge
 * https://github.com/codeFareith/uebersicht-FancyDateTime
+* https://github.com/gregmajor/ubersicht-outdated-brew-formulae-widget
