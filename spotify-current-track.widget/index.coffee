@@ -20,6 +20,8 @@ refreshFrequency: 2000
 style: """
   bottom: 15px
   left: 15px
+  right: 15px
+  text-align: center
   color: #fff
 
   .output
